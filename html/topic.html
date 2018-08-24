@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/topic.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="../images/favmain.png">
+	<title>Campus Charcha</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	  <script src="../js/topic.js"></script>
+</head> 
+<body>
+   <div id="nav">
+   
+   <a><img src="../images/new.png" id="logo"></a>
+           <div class="search-container" >
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search Topics" name="search">
+      <!--<button type="submit"><i class="fa fa-search" style="color: white;"></i></button>-->
+    </form>
+  </div>
+  <div id="start">
+   	<button onclick="document.getElementById('askque').style.display='block'">
+      Add
+    </button>
+   <!--<img src="../images/music.png" onclick="openNav()">-->
+    <img src="../images/avatar.jpg" id="avatar">
+    </div>
+   </div>
+   <div>
+<div id="sidebar">
+       <button id="forum" onclick="forum1()" ><i class="fa fa-list-alt" style="color: #ff0d22;"></i> Forum</button>
+       <!--<button id="music" onclick="music1()"><i class="fa fa-music" style="color: #ff0d22;"></i> Music</button>-->
+</div>
+<div id="allquest">
+<div class="post">
+	<div id="quest_views">
+	<p id="question">How can I become a great coder like Aman Goel?</p>
+	<i class="fa fa-eye"  id="views"> <span id="count_views">24.k views</span></i>
+	</div>
+	<div id="profile_pic">
+	<img src="../images/avatar.jpg" id="avatar">
+	<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+	</div>
+	
+		<p class="answer">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<!--<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>-->
+			<i class="fa fa-bookmark-o" id="bookmark" ><span>Bookmark<span></i>
+
+
+	</div>
+
+	<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+		<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+	</div>
+	
+	</div>
+<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+		<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+	</div>
+	</div>
+
+</div>
+<div class="post">
+	<div id="quest_views">
+	<p id="question">How can I become a great coder like Aman Goel?</p>
+	<i class="fa fa-eye"  id="views"> <span id="count_views">24.k views</span></i>
+	</div>
+	<div id="profile_pic">
+	<img src="../images/avatar.jpg" id="avatar">
+	<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+	</div>
+	
+		<p class="answer">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<!--<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>-->
+			<i class="fa fa-bookmark-o" id="bookmark" ><span>Bookmark<span></i>
+
+
+	</div>
+
+	<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+		<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+	</div>
+	
+	</div>
+<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+		<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+	</div>
+	</div>
+
+</div>
+<div class="post">
+	<div id="quest_views">
+	<p id="question">How can I become a great coder like Aman Goel?</p>
+	<i class="fa fa-eye"  id="views"> <span id="count_views">24.k views</span></i>
+	</div>
+	<div id="profile_pic">
+	<img src="../images/avatar.jpg" id="avatar">
+	<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+	</div>
+	
+		<p class="answer">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<!--<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>-->
+			<i class="fa fa-bookmark-o" id="bookmark" ><span>Bookmark<span></i>
+
+
+	</div>
+
+	<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+		<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+	</div>
+	
+	</div>
+<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+		<div class="comments">
+			<div id="profile_pic">
+			<img src="../images/avatar.jpg" id="avatar">
+			<div><h1 id="profile_name">Uma sankar</h1><p id="answer_time"><i class="fa fa-clock-o" id="time"></i> 1hr ago</p></div>
+			</div>
+			<p class="comment">Ok , so I don’t know if someone had already posted these pics or not . I have seen some amazing pictures today and they really made me go “wow”.There is an Israeli artist Yehuda Devir . He makes sk...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<button class="comment_more">(more)</button>
+	<div class="social_icons">
+			<i class="fa fa-thumbs-up" ><span>Like<span></i>
+			<i class="fa fa-thumbs-down"><span>Dislike<span></i>
+			<i class="fa fa-reply" class="reply" onclick="reply(this)"><span>Reply<span></i>
+	</div>
+	</div>
+	</div>
+
+</div>
+
+
+</div>
+<!--<div id="rightbar">	
+	<button id="add">Add a Question</button>
+	<button>Create a Poll</button>
+</div>-->
+
+
+
+</div>
+<div id="askque" class="ask">
+	<div class="whichone" id="modal">
+		<div id="topbar">
+			<a id="close" onclick="document.getElementById('askque').style.display='none'">&#10006 </a>
+			<div id="top_leftbar">
+
+			<button id="downline1" onclick="question()">Ask a Question</button>
+			<button id="downline2" onclick="poll()">Create a Poll</button>
+			</div>
+		</div>
+		<form id="formque">
+		<div id="askquestion">
+			<div id="who_added">
+			<img src="../images/avatar.jpg" id="avatar">
+			<h1 id="profile_name_ask">Uma sankar added </h1>
+
+			</div>
+			<input type="text" name="ask_question" placeholder="Type your question">
+		</div>
+
+		<div id="footbar">
+			<button type="submit">Add Question</button>
+		</div>
+	</form>
+	<form id="formpoll">
+			<div id="createpoll" >
+			<div id="who_added">
+			<img src="../images/avatar.jpg" id="avatar">
+			<h1 id="profile_name_ask">Uma sankar created </h1>
+
+			</div>
+			<input type="text" name="ask_question" placeholder="Type your question" id="pollque">
+			<div id="options">
+				<input type="text" name="choice 1" placeholder="Choice 1" class="before">
+				<input type="text" name="choice 2" placeholder="Choice 2" class="before">
+				<div class="before">
+				<input type="text" name="choice 3" placeholder="Choice 3(optional)" id="ch3opt">
+				<a id="options_close1" onclick="opt3close()">&#10006 </a>
+				</div>
+				<div class="before">
+				<input type="text" name="choice 4" placeholder="Choice 4(optional)" id="ch4opt">
+				<a id="options_close2" onclick="opt4close()">&#10006 </a>
+				</div>
+				<button id="addopt" onclick="addot()" type="button" class="before">Add option</button>
+			</div>
+		</div>
+				<div id="footbar">
+					<div id="polltime">
+						<h1>Poll length:</h1>
+						<label id="day">Day</label>
+          				<input type="number" name="day"  value="1"  min="1" max="365">
+          				<label id="hours">Hours</label>
+          				<input type="number" name="hours"  value="0"  min="0" max="23">
+          				<label id="min">Min</label>
+          				<input type="number" name="min"  value="0"  min="1" max="59">
+					</div>
+			<button type="submit">Create poll</button>
+		</div>
+	</form>
+		
+	</div>
+	
+	
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <div id="cart">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: #ff0d22">&times;</a>
+
+
+  </div>
+</div>
+
+</body>
+</html>
